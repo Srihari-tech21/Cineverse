@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "server": "json-server --watch db.json --port 3000",
+    "start": "node server.cjs",
+    "server": "node server.cjs",
     "build": "vite build",
     "preview": "vite preview"
   },
