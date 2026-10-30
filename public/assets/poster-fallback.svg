@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 750" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#2D221A" />
+      <stop offset="50%" stop-color="#1A1410" />
+      <stop offset="100%" stop-color="#100D0B" />
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2D7B3" />
+      <stop offset="50%" stop-color="#D0AA7A" />
+      <stop offset="100%" stop-color="#8F6B45" />
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(208, 170, 122, 0.4)" />
+      <stop offset="50%" stop-color="rgba(181, 138, 98, 0.15)" />
+      <stop offset="100%" stop-color="rgba(208, 170, 122, 0.3)" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="500" height="750" fill="url(#bgGrad)" />
+
+  <!-- Outer Elegant Filigree Border -->
+  <rect x="24" y="24" width="452" height="702" rx="16" fill="none" stroke="url(#borderGrad)" stroke-width="1.5" />
+  <rect x="34" y="34" width="432" height="682" rx="12" fill="none" stroke="rgba(208, 170, 122, 0.15)" stroke-width="1" stroke-dasharray="4 4" />
+
+  <!-- Corner Flourishes -->
+  <path d="M 24 44 L 44 24" stroke="#D0AA7A" stroke-width="2" />
+  <path d="M 476 44 L 456 24" stroke="#D0AA7A" stroke-width="2" />
+  <path d="M 24 706 L 44 726" stroke="#D0AA7A" stroke-width="2" />
+  <path d="M 476 706 L 456 726" stroke="#D0AA7A" stroke-width="2" />
+
+  <!-- Film Strip Accent (Top) -->
+  <g opacity="0.25">
+    <rect x="180" y="50" width="140" height="18" rx="4" fill="#3D2D22" />
+    <circle cx="195" cy="59" r="3" fill="#D0AA7A" />
+    <circle cx="215" cy="59" r="3" fill="#D0AA7A" />
+    <circle cx="235" cy="59" r="3" fill="#D0AA7A" />
+    <circle cx="255" cy="59" r="3" fill="#D0AA7A" />
+    <circle cx="275" cy="59" r="3" fill="#D0AA7A" />
+    <circle cx="295" cy="59" r="3" fill="#D0AA7A" />
+  </g>
+
+  <!-- Central CineVerse Emblem -->
+  <g transform="translate(250, 310)">
+    <!-- Glow Ring -->
+    <circle cx="0" cy="0" r="74" fill="none" stroke="rgba(208, 170, 122, 0.2)" stroke-width="2" />
+    <circle cx="0" cy="0" r="62" fill="#251C15" stroke="url(#goldGrad)" stroke-width="2.5" />
+    
+    <!-- Film Reel Center -->
+    <circle cx="0" cy="0" r="22" fill="#1A1410" stroke="#B58A62" stroke-width="2" />
+    <circle cx="0" cy="0" r="7" fill="#D0AA7A" />
+    <circle cx="-38" cy="0" r="8" fill="#1A1410" stroke="#B58A62" stroke-width="1.5" />
+    <circle cx="38" cy="0" r="8" fill="#1A1410" stroke="#B58A62" stroke-width="1.5" />
+    <circle cx="0" cy="-38" r="8" fill="#1A1410" stroke="#B58A62" stroke-width="1.5" />
+    <circle cx="0" cy="38" r="8" fill="#1A1410" stroke="#B58A62" stroke-width="1.5" />
+    <circle cx="-27" cy="-27" r="6" fill="#1A1410" stroke="#B58A62" stroke-width="1" />
+    <circle cx="27" cy="-27" r="6" fill="#1A1410" stroke="#B58A62" stroke-width="1" />
+    <circle cx="-27" cy="27" r="6" fill="#1A1410" stroke="#B58A62" stroke-width="1" />
+    <circle cx="27" cy="27" r="6" fill="#1A1410" stroke="#B58A62" stroke-width="1" />
+  </g>
+
+  <!-- CineVerse Brand Name -->
+  <text x="250" y="440" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="28" font-weight="800" fill="url(#goldGrad)" text-anchor="middle" letter-spacing="6">CINEVERSE</text>
+  
+  <text x="250" y="470" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="13" font-weight="600" fill="#B7A99B" text-anchor="middle" letter-spacing="4">CINEMATIC ARCHIVE</text>
+
+  <!-- Divider Line -->
+  <line x1="190" y1="495" x2="310" y2="495" stroke="#79563F" stroke-width="1.5" stroke-linecap="round" />
+  <polygon points="250,491 254,495 250,499 246,495" fill="#D0AA7A" />
+
+  <text x="250" y="530" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="12" font-weight="500" fill="#8C7A6B" text-anchor="middle" letter-spacing="2">OFFICIAL POSTER UNAVAILABLE</text>
+  
+  <text x="250" y="555" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="11" font-weight="400" fill="#695546" text-anchor="middle" letter-spacing="1">PREMIUM MOVIE MANAGEMENT</text>
+</svg>
